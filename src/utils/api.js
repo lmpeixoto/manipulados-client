@@ -26,7 +26,8 @@ export const fetchFormasFarmaceuticas = async () => {
         const formasFarmaceuticasResponse = await fetch(
             URL_FORMAS_FARMACEUTICAS
         );
-        const formasFarmaceuticasData = await formasFarmaceuticasResponse.json();
+        const formasFarmaceuticasData =
+            await formasFarmaceuticasResponse.json();
         return formasFarmaceuticasData;
     } catch (error) {
         console.log(error);
