@@ -151,3 +151,5 @@ export const deleteManipulado = async (id) => {
         console.log(error);
     }
 };
+
+//
